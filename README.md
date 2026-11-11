@@ -41,7 +41,7 @@ sqlmap -u "http://<TARGET_IP>/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --
 ```
 
 ### 📊 Enumeration Results (Tables):
-When querying the metadata of the `dvwa` schema, SQLMap identified the presence of the following entities:
+When querying the metadata of the `dvwa`, SQLMap identified the presence of the following entities:
 *   `guestbook`
 *   `users` (Critical entity selected for the data dump)
 
